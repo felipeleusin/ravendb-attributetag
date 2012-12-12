@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Linq;
+using System.Reflection;
 
 namespace Raven.AttributeTags
 {
@@ -21,6 +23,17 @@ namespace Raven.AttributeTags
             }
 
             return tagName;
+        }
+
+        public static void CacheAssembly(Assembly assembly)
+        {
+            var taggedTypes = assembly.GetTypes().Where(x => x.GetCustomAttribute<RavenTagAttribute>(true) != null);
+
+            foreach (var taggedType in taggedTypes)
+            {
+                GetTag(taggedType);
+            }
+
         }
     }
 }

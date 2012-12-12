@@ -2,17 +2,6 @@
 
 namespace Raven.AttributeTags.Tests
 {
-    [RavenTag("UserTag")]
-    public class TaggedUser : User
-    {}
-
-    public class User
-    {
-        public string Id { get; set; }
-
-        public string Name { get; set; }
-    }
-
     public class RavenTagAttributeTests : TagTestBase
     {
         [Fact]
