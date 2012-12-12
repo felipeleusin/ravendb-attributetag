@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.AttributeTags", "RavenDb.AttributeTags\RavenDb.AttributeTags.csproj", "{153EC51F-3A90-433D-8775-2C3168F75729}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.AttributeTags", "Raven.AttributeTags\Raven.AttributeTags.csproj", "{153EC51F-3A90-433D-8775-2C3168F75729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.AttributeTags.Tests", "RavenDb.AttributeTags.Tests\RavenDb.AttributeTags.Tests.csproj", "{F78C5C4A-757E-4FA4-A49F-B08E64525C69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.AttributeTags.Tests", "Raven.AttributeTags.Tests\Raven.AttributeTags.Tests.csproj", "{F78C5C4A-757E-4FA4-A49F-B08E64525C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

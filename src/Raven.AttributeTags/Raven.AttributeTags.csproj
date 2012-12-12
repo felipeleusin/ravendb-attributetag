@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F78C5C4A-757E-4FA4-A49F-B08E64525C69}</ProjectGuid>
+    <ProjectGuid>{153EC51F-3A90-433D-8775-2C3168F75729}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RavenDb.AttributeTags.Tests</RootNamespace>
-    <AssemblyName>RavenDb.AttributeTags.Tests</AssemblyName>
+    <RootNamespace>Raven.AttributeTags</RootNamespace>
+    <AssemblyName>Raven.AttributeTags</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,14 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="User.cs" />
+    <Compile Include="RavenTagAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RavenDb.AttributeTags\RavenDb.AttributeTags.csproj">
-      <Project>{153ec51f-3a90-433d-8775-2c3168f75729}</Project>
-      <Name>RavenDb.AttributeTags</Name>
-    </ProjectReference>
+    <Compile Include="RavenTagHelpers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

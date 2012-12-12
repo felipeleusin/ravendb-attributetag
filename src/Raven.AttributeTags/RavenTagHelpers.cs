@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 
-namespace RavenDb.AttributeTags
+namespace Raven.AttributeTags
 {
     public static class RavenTagHelpers
     {
